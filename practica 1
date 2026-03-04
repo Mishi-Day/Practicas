@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> Mau Meraky </title>
+</head>
+<body>
+  <h1> Mau Meraky </h1>
+  <h2> ¿Quiénes Somos? </h2>
+  <p>
+    Somos una tienda de bijuteria artesanal dedicada a ofrecer productos únicos y de alta calidad. Nuestro objetivo es brindar a nuestros clientes piezas exclusivas que reflejen su estilo y personalidad.
+  </p>
+  <h3>Productos</h3>
+  <ul>
+    <li>Anillos</li>
+    <li>Pulseras</li>
+    <li>Collares</li>
+    <li>Aretes</li>
+  </ul>
+  <h3>Servicios</h3>
+  <ul>
+    <li>Pedidos especiales</li>
+    <li>Entregas en tienda</li>
+    <li>Envíos a domicilio</li>
+  </ul>
+  <h3>Ubicación</h3>
+  <p>
+    Calle Patito #000<br />
+    Ciudad La Paz, Bolivia
+  </p>
+  <h3>Contactanos</h3>
+  <p>
+    Email: mauMeraky@email.com<br />
+    Teléfono: 000-111-2222
+  </p>
+</body>
+</html>
