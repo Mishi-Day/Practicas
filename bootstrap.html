@@ -7,32 +7,11 @@
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <link rel="icon" href="https://images.icon-icons.com/169/PNG/256/cat_halloween_23230.png">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="#">Mau Meraky</a>
-
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">¿Quiénes Somos?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- CAROUSEL -->
+<!-- 🔹 CAROUSEL (IMÁGENES DE BIJUTERÍA) -->
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -44,39 +23,74 @@
   </div>
 </div>
 
-<!-- CONTENIDO -->
+<!-- 🔹 CONTENIDO -->
 <div class="container mt-4">
 
-  <h2>¿Quiénes Somos?</h2>
-  <p>Somos una tienda de bijutería artesanal.</p>
+  <!-- QUIÉNES SOMOS -->
+  <h2 class="text-center mb-4">¿Quiénes Somos?</h2>
+  <p class="text-center">
+    En Mau Meraky nos dedicamos a la creación de bijutería artesanal única, diseñada para resaltar tu estilo y personalidad.
+  </p>
 
-  <h3>Productos</h3>
-  <div class="row text-center">
-    <div class="col-md-3">Anillos</div>
-    <div class="col-md-3">Pulseras</div>
-    <div class="col-md-3">Collares</div>
-    <div class="col-md-3">Aretes</div>
+  <!-- PRODUCTOS (COLUMNAS) -->
+  <div class="row text-center mt-4">
+    <div class="col-md-3">
+      <h5>Anillos</h5>
+      <img src="https://via.placeholder.com/150" class="img-fluid">
+    </div>
+    <div class="col-md-3">
+      <h5>Pulseras</h5>
+      <img src="https://via.placeholder.com/150" class="img-fluid">
+    </div>
+    <div class="col-md-3">
+      <h5>Collares</h5>
+      <img src="https://via.placeholder.com/150" class="img-fluid">
+    </div>
+    <div class="col-md-3">
+      <h5>Aretes</h5>
+      <img src="https://via.placeholder.com/150" class="img-fluid">
+    </div>
   </div>
 
-  <h3 class="mt-4">Servicios</h3>
+  <!-- SERVICIOS -->
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <img src="https://via.placeholder.com/500x300" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p>
+        Ofrecemos productos personalizados, entregas en tienda y envíos a domicilio.
+        Nos enfocamos en brindar calidad y satisfacción a cada cliente.
+      </p>
+    </div>
+  </div>
 
-  <div class="accordion" id="accordionExample">
+  <!-- 🔹 ACCORDION -->
+  <div class="accordion mt-4" id="accordionExample">
 
     <div class="accordion-item">
-      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#s1">
-        Pedidos especiales
-      </button>
-      <div id="s1" class="accordion-collapse collapse show">
-        <div class="accordion-body">Hacemos pedidos personalizados</div>
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item1">
+          Pedidos especiales
+        </button>
+      </h2>
+      <div id="item1" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          Realizamos diseños personalizados según tu estilo.
+        </div>
       </div>
     </div>
 
     <div class="accordion-item">
-      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#s2">
-        Entregas
-      </button>
-      <div id="s2" class="accordion-collapse collapse">
-        <div class="accordion-body">Envíos y entregas</div>
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item2">
+          Envíos y entregas
+        </button>
+      </h2>
+      <div id="item2" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          Entregas en tienda y envíos a domicilio en toda la ciudad.
+        </div>
       </div>
     </div>
 
@@ -84,12 +98,13 @@
 
 </div>
 
-<!-- FOOTER -->
+<!-- FOOTER (OPCIONAL) -->
 <footer class="bg-dark text-white text-center p-3 mt-4">
   <p>La Paz - Bolivia</p>
   <p>Email: mauMeraky@email.com</p>
 </footer>
 
+<!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
